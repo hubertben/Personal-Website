@@ -1,0 +1,35 @@
+body{
+
+    background-color: black;
+    text-align: center;
+    color: white;
+
+}
+
+#myCanvas{
+
+    background-color: black;
+    border-color: white;
+    border:2px solid;
+
+}
+
+#sliders{
+    height: 100px; 
+    margin: 0px;
+    padding: 0px;
+}
+
+#sliders *{
+    vertical-align: middle;
+    margin-left: 20px;
+}
+
+#btn{
+
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+
+}
+

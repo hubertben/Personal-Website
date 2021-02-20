@@ -1,0 +1,162 @@
+
+body{
+    background-color: #ebebeb;
+    text-align: center;
+    color: #EFF6E0;
+    font-family: Helvetica, Sans-Serif;
+
+}
+
+#PNI{
+    text-align: center;
+    top: 40%;
+    margin: 20%;
+    color: black;
+}
+
+#PNI a{
+    text-decoration: none;
+    text-align: center;
+    color: red;
+}
+
+#intro{
+    position: absolute;
+    left: 20%;
+    top: 20%;
+    
+    color: #000;
+    font-weight: 400;
+    margin: 0px;
+    text-decoration: none solid rgb(255, 255, 255);
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+
+#intro h1{
+    font-size: 48px;
+    margin: 0px;
+    letter-spacing: 2.2px;
+    word-spacing: 2.2px;
+}
+
+#intro p{
+    margin: 0px;
+    letter-spacing: 1.6px;
+    word-spacing: 1.6px;
+}
+
+#intro #face{
+    height: 450px; width: auto;
+    margin: 0px;
+    border:8px solid rgb(233, 233, 233);
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+}
+
+#intro .icon{
+    margin-top: 10px;
+    height: 45px; width: auto;
+}
+
+#intro a{
+    margin-left: 5px;
+    margin-right: 5px;
+    text-decoration: none;
+}
+
+@supports(scroll-snap-type: y mandatory) {
+    .no-support {
+        display: none;
+    }
+}
+
+#selections{
+
+    
+    max-width: 50%; 
+    word-wrap: normal;
+    top: 0;
+    bottom: 0;
+    font-size: 20px;
+    position: fixed; 
+    text-align: right; 
+    overflow: scroll;
+    display: inline; 
+    scroll-snap-type: y mandatory;
+
+}
+
+#selections a{
+    text-decoration: none;
+    color: rgb(54, 54, 54);
+    position: relative;            
+    margin-left: 150px;
+}
+
+#selections::-webkit-scrollbar { 
+    width: 0 !important;
+    display: none; 
+}
+
+#selections .project{
+
+    max-width: 80%;
+    padding-left: 120px;
+    margin: 0px;
+    position: relative;
+    right: 10px;
+    transform: scale(1);
+    transition: transform .25s ease-in-out, color 1s;;
+    color: rgb(54, 54, 54);
+
+}
+
+#selections .project:hover{
+    transform: scale(1.12);
+    transition: transform .25s ease-in-out, color 1s;;
+    color: #000;
+}
+
+.section_break{
+    height: 12.5%;
+}
+
+
+.sidenav {
+    height: 100%;
+    width: 170px;
+    position: fixed;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+    background-color: #000;
+    overflow-x: hidden;
+    padding-top: 20px;
+    margin: 0;
+  }
+  
+  .sidenav a {
+    padding: 20px 20px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #D1D1D1;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+
+  .sidenav img{
+
+    width: 60px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+  }
+  

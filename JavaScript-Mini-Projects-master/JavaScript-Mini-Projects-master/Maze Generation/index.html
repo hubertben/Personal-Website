@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Maze Generator</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body onload="setup()">
+
+    <h1>Maze Generation Using Recursive Backtracking</h1>
+    <button onclick="generate()" style="margin-bottom: 15px">Generate Maze</button>
+    <button onclick="step()" style="margin-bottom: 15px">Step</button>
+    <button id="pause" onclick="pause()" style="margin-bottom: 15px">Pause</button>
+    <button onclick="refresh()" style="margin-bottom: 15px">Refresh</button>
+
+    <br>
+    <p id="output" style="margin-bottom: 0px"> Slide To Adjust Generation Speed </p>
+    <input id="timeSpeed" min="0" max="500" value="0" type="range">
+    
+    <div id="cv">
+      <canvas id="myCanvas" width="500" height="500" style="border:2px solid"></canvas>
+    </div>
+    <script src="script.js"></script>
+    <p>Implemented by Ben Hubert</p>
+    <p>Febuary 18, 2020</p>
+  </body>
+</html>
